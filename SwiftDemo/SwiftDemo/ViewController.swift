@@ -13,13 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //基础语法，数据类型
-        self.variableTest()
+        self.test()
 
     }
     
-    //基础语法，数据类型
-    func variableTest() -> Void {
+    
+    func test() -> Void {
+        //基础语法，数据类型
         //变量，字符串
         let obj = VariableObject()
         obj.echoStr()
@@ -37,6 +37,11 @@ class ViewController: UIViewController {
         let funcAndClosure = FuncAndClosuresObject()
         funcAndClosure.test()
         
+        //对象和类
+        let objectAndClass = ObjectAndClass(name: "jack" , age: 20)
+        objectAndClass.name = "tom"
+        //objectAndClass.age = 10
+        objectAndClass.test()
         
         
     }
