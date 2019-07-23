@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2926FA1522E6E94600BE986C /* ArrAndDicObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926FA1422E6E94600BE986C /* ArrAndDicObject.swift */; };
+		2926FA1822E6EAAC00BE986C /* ControlFlowObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926FA1722E6EAAC00BE986C /* ControlFlowObject.swift */; };
+		2926FA2022E7013900BE986C /* FuncAndClosuresObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926FA1F22E7013900BE986C /* FuncAndClosuresObject.swift */; };
 		294FD15722E2B17500F1B558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD15622E2B17500F1B558 /* AppDelegate.swift */; };
 		294FD15922E2B17500F1B558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD15822E2B17500F1B558 /* ViewController.swift */; };
 		294FD15C22E2B17500F1B558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294FD15A22E2B17500F1B558 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		294FD16122E2B17600F1B558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294FD15F22E2B17600F1B558 /* LaunchScreen.storyboard */; };
 		294FD16C22E2B17600F1B558 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD16B22E2B17600F1B558 /* SwiftDemoTests.swift */; };
 		294FD17722E2B17600F1B558 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD17622E2B17600F1B558 /* SwiftDemoUITests.swift */; };
+		294FD18722E2B52600F1B558 /* VariableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD18622E2B52600F1B558 /* VariableObject.swift */; };
+		294FD18922E2B7AC00F1B558 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD18822E2B7AC00F1B558 /* TestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2926FA1422E6E94600BE986C /* ArrAndDicObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrAndDicObject.swift; sourceTree = "<group>"; };
+		2926FA1722E6EAAC00BE986C /* ControlFlowObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowObject.swift; sourceTree = "<group>"; };
+		2926FA1F22E7013900BE986C /* FuncAndClosuresObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncAndClosuresObject.swift; sourceTree = "<group>"; };
 		294FD15322E2B17500F1B558 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294FD15622E2B17500F1B558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		294FD15822E2B17500F1B558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		294FD17222E2B17600F1B558 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		294FD17622E2B17600F1B558 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		294FD17822E2B17600F1B558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294FD18622E2B52600F1B558 /* VariableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableObject.swift; sourceTree = "<group>"; };
+		294FD18822E2B7AC00F1B558 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2926FA1622E6EA3100BE986C /* 控制流if,switch,for,while */ = {
+			isa = PBXGroup;
+			children = (
+				2926FA1722E6EAAC00BE986C /* ControlFlowObject.swift */,
+			);
+			path = "控制流if,switch,for,while";
+			sourceTree = "<group>";
+		};
+		2926FA1E22E700F700BE986C /* 方法和闭包 */ = {
+			isa = PBXGroup;
+			children = (
+				2926FA1F22E7013900BE986C /* FuncAndClosuresObject.swift */,
+			);
+			path = "方法和闭包";
+			sourceTree = "<group>";
+		};
 		294FD14A22E2B17500F1B558 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +123,11 @@
 		294FD15522E2B17500F1B558 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				294FD18422E2B36100F1B558 /* 基础语法 */,
 				294FD15622E2B17500F1B558 /* AppDelegate.swift */,
 				294FD15822E2B17500F1B558 /* ViewController.swift */,
 				294FD15A22E2B17500F1B558 /* Main.storyboard */,
+				294FD18822E2B7AC00F1B558 /* TestClass.swift */,
 				294FD15D22E2B17600F1B558 /* Assets.xcassets */,
 				294FD15F22E2B17600F1B558 /* LaunchScreen.storyboard */,
 				294FD16222E2B17600F1B558 /* Info.plist */,
@@ -123,6 +151,25 @@
 				294FD17822E2B17600F1B558 /* Info.plist */,
 			);
 			path = SwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		294FD18422E2B36100F1B558 /* 基础语法 */ = {
+			isa = PBXGroup;
+			children = (
+				294FD18522E2B43600F1B558 /* 数据类型 */,
+				2926FA1622E6EA3100BE986C /* 控制流if,switch,for,while */,
+				2926FA1E22E700F700BE986C /* 方法和闭包 */,
+			);
+			path = "基础语法";
+			sourceTree = "<group>";
+		};
+		294FD18522E2B43600F1B558 /* 数据类型 */ = {
+			isa = PBXGroup;
+			children = (
+				294FD18622E2B52600F1B558 /* VariableObject.swift */,
+				2926FA1422E6E94600BE986C /* ArrAndDicObject.swift */,
+			);
+			path = "数据类型";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294FD18922E2B7AC00F1B558 /* TestClass.swift in Sources */,
 				294FD15922E2B17500F1B558 /* ViewController.swift in Sources */,
+				2926FA1822E6EAAC00BE986C /* ControlFlowObject.swift in Sources */,
 				294FD15722E2B17500F1B558 /* AppDelegate.swift in Sources */,
+				2926FA1522E6E94600BE986C /* ArrAndDicObject.swift in Sources */,
+				294FD18722E2B52600F1B558 /* VariableObject.swift in Sources */,
+				2926FA2022E7013900BE986C /* FuncAndClosuresObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +487,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4C4464ZL88;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +507,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4C4464ZL88;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
