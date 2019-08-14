@@ -14,10 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.test()
-
+        
     }
     
     
+    @IBAction func pushAction(_ sender: Any) {
+        
+        let firstVC = FirstViewController()
+        firstVC.parser = 10
+        self.present(firstVC, animated: true) {
+            print("跳转")
+        }
+    }
     func test() -> Void {
         //基础语法，数据类型
         //变量，字符串
@@ -42,8 +50,25 @@ class ViewController: UIViewController {
         objectAndClass.name = "tom"
         //objectAndClass.age = 10
         objectAndClass.test()
+//        print("===测试get:\(objectAndClass.perimeter)")
+//        objectAndClass.perimeter = 100.0
+//        print("===测试set之后的值:\(objectAndClass.perimeter)")
         
+        //继承
+        let childObject = ChildObject(name: "nike", age: 10)
+        childObject.test()
         
+        //枚举
+        let enumClass = EnumClass()
+        enumClass.test()
+        
+        //
+        let simple = SimpleClass()
+        simple.test()
+        
+        //范型
+        let generics = GenericsObject()
+        generics.test()
     }
 
 

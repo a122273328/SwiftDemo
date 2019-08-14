@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291A854822E7E9D8004C1A2E /* ChildObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A854722E7E9D8004C1A2E /* ChildObject.swift */; };
+		291A854A22E7F4BC004C1A2E /* EnumClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A854922E7F4BC004C1A2E /* EnumClass.swift */; };
 		2926FA1522E6E94600BE986C /* ArrAndDicObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926FA1422E6E94600BE986C /* ArrAndDicObject.swift */; };
 		2926FA1822E6EAAC00BE986C /* ControlFlowObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926FA1722E6EAAC00BE986C /* ControlFlowObject.swift */; };
 		2926FA2022E7013900BE986C /* FuncAndClosuresObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926FA1F22E7013900BE986C /* FuncAndClosuresObject.swift */; };
@@ -20,6 +22,14 @@
 		294FD17722E2B17600F1B558 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD17622E2B17600F1B558 /* SwiftDemoUITests.swift */; };
 		294FD18722E2B52600F1B558 /* VariableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD18622E2B52600F1B558 /* VariableObject.swift */; };
 		294FD18922E2B7AC00F1B558 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FD18822E2B7AC00F1B558 /* TestClass.swift */; };
+		29715C0522E97F3D001870E8 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29715C0422E97F3D001870E8 /* SimpleClass.swift */; };
+		29715C0722E988AD001870E8 /* GenericsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29715C0622E988AD001870E8 /* GenericsObject.swift */; };
+		29D8649923039C0F00DA2BCC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8649723039C0F00DA2BCC /* FirstViewController.swift */; };
+		29D8649A23039C0F00DA2BCC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8649823039C0F00DA2BCC /* FirstViewController.xib */; };
+		29D8649D2303E2A500DA2BCC /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8649B2303E2A400DA2BCC /* FirstTableViewCell.swift */; };
+		29D8649E2303E2A500DA2BCC /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8649C2303E2A500DA2BCC /* FirstTableViewCell.xib */; };
+		29D864A12303F19900DA2BCC /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8649F2303F19900DA2BCC /* FirstCollectionViewCell.swift */; };
+		29D864A22303F19900DA2BCC /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D864A02303F19900DA2BCC /* FirstCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		291A854722E7E9D8004C1A2E /* ChildObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildObject.swift; sourceTree = "<group>"; };
+		291A854922E7F4BC004C1A2E /* EnumClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumClass.swift; sourceTree = "<group>"; };
 		2926FA1422E6E94600BE986C /* ArrAndDicObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrAndDicObject.swift; sourceTree = "<group>"; };
 		2926FA1722E6EAAC00BE986C /* ControlFlowObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowObject.swift; sourceTree = "<group>"; };
 		2926FA1F22E7013900BE986C /* FuncAndClosuresObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncAndClosuresObject.swift; sourceTree = "<group>"; };
@@ -59,6 +71,14 @@
 		294FD17822E2B17600F1B558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		294FD18622E2B52600F1B558 /* VariableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableObject.swift; sourceTree = "<group>"; };
 		294FD18822E2B7AC00F1B558 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		29715C0422E97F3D001870E8 /* SimpleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
+		29715C0622E988AD001870E8 /* GenericsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsObject.swift; sourceTree = "<group>"; };
+		29D8649723039C0F00DA2BCC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		29D8649823039C0F00DA2BCC /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		29D8649B2303E2A400DA2BCC /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		29D8649C2303E2A500DA2BCC /* FirstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		29D8649F2303F19900DA2BCC /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		29D864A02303F19900DA2BCC /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				2926FA2222E7194400BE986C /* ObjectAndClass.swift */,
+				291A854722E7E9D8004C1A2E /* ChildObject.swift */,
+				29715C0622E988AD001870E8 /* GenericsObject.swift */,
 			);
 			path = "对象和类";
 			sourceTree = "<group>";
@@ -133,6 +155,7 @@
 		294FD15522E2B17500F1B558 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				29D8649623039BE500DA2BCC /* View */,
 				294FD18422E2B36100F1B558 /* 基础语法 */,
 				294FD15622E2B17500F1B558 /* AppDelegate.swift */,
 				294FD15822E2B17500F1B558 /* ViewController.swift */,
@@ -179,8 +202,23 @@
 			children = (
 				294FD18622E2B52600F1B558 /* VariableObject.swift */,
 				2926FA1422E6E94600BE986C /* ArrAndDicObject.swift */,
+				291A854922E7F4BC004C1A2E /* EnumClass.swift */,
+				29715C0422E97F3D001870E8 /* SimpleClass.swift */,
 			);
 			path = "数据类型";
+			sourceTree = "<group>";
+		};
+		29D8649623039BE500DA2BCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29D8649723039C0F00DA2BCC /* FirstViewController.swift */,
+				29D8649823039C0F00DA2BCC /* FirstViewController.xib */,
+				29D8649B2303E2A400DA2BCC /* FirstTableViewCell.swift */,
+				29D8649C2303E2A500DA2BCC /* FirstTableViewCell.xib */,
+				29D8649F2303F19900DA2BCC /* FirstCollectionViewCell.swift */,
+				29D864A02303F19900DA2BCC /* FirstCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +325,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D8649E2303E2A500DA2BCC /* FirstTableViewCell.xib in Resources */,
+				29D864A22303F19900DA2BCC /* FirstCollectionViewCell.xib in Resources */,
 				294FD16122E2B17600F1B558 /* LaunchScreen.storyboard in Resources */,
 				294FD15E22E2B17600F1B558 /* Assets.xcassets in Resources */,
 				294FD15C22E2B17500F1B558 /* Main.storyboard in Resources */,
+				29D8649A23039C0F00DA2BCC /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +355,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D864A12303F19900DA2BCC /* FirstCollectionViewCell.swift in Sources */,
 				294FD18922E2B7AC00F1B558 /* TestClass.swift in Sources */,
 				294FD15922E2B17500F1B558 /* ViewController.swift in Sources */,
+				29715C0522E97F3D001870E8 /* SimpleClass.swift in Sources */,
 				2926FA1822E6EAAC00BE986C /* ControlFlowObject.swift in Sources */,
 				294FD15722E2B17500F1B558 /* AppDelegate.swift in Sources */,
+				29D8649923039C0F00DA2BCC /* FirstViewController.swift in Sources */,
+				29D8649D2303E2A500DA2BCC /* FirstTableViewCell.swift in Sources */,
 				2926FA1522E6E94600BE986C /* ArrAndDicObject.swift in Sources */,
+				291A854822E7E9D8004C1A2E /* ChildObject.swift in Sources */,
 				294FD18722E2B52600F1B558 /* VariableObject.swift in Sources */,
 				2926FA2022E7013900BE986C /* FuncAndClosuresObject.swift in Sources */,
 				2926FA2322E7194400BE986C /* ObjectAndClass.swift in Sources */,
+				29715C0722E988AD001870E8 /* GenericsObject.swift in Sources */,
+				291A854A22E7F4BC004C1A2E /* EnumClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

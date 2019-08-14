@@ -13,11 +13,18 @@ class ObjectAndClass: NSObject {
     var name = ""
     private var age = 0
     
+//    var perimeter:Double{
+//        get{
+//            return 10.0
+//        }
+//        set{
+//            perimeter = 30
+//        }
+//    }
     init(name : String,age : Int) {
         print(name)
         print(age)
     }
-    
     
     func test(){
         
@@ -26,7 +33,11 @@ class ObjectAndClass: NSObject {
         self.age = 10
         print("my age is \(age)")
         print("====对象和类结束====")
+        print("父类方法")
     }
+    
+    
+    
 
 
 }
