@@ -48,9 +48,21 @@ class FuncAndClosuresObject: NSObject {
         print(mapNumbers1)
         //[60, 57, 21, 36]
         
+        //忽略参数标签
+        self.someFunction(1, second: 2)
         
+        //函数作为类型
+        let mathFunction: (Int,Int) -> Int = addTwoInts
         
+        print("计算和：\(mathFunction(2,3))")
         
+        //函数作为参数
+        self.printMathResult(mathFunction, 6, 7)
+        
+        //函数作为返回值
+        let moveNearerToZero = self.chooseStepFunction(backward: true)
+        
+        print("函数作为返回值：\(moveNearerToZero(1))")
         print("====方法和闭包结束====")
         
     }
@@ -126,6 +138,53 @@ class FuncAndClosuresObject: NSObject {
     //找出不到10的
     func lessThanTen(number:Int) -> Bool {
         return number < 10
+    }
+    
+    
+    //忽略参数标签
+    //如果你不希望为某个参数添加一个标签，可以使用一个下划线（_）来代替一个明确的参数标签。
+    func someFunction(_ first:Int,second:Int){
+        
+        print("忽略参数标签")
+        
+    }
+    
+    func addTwoInts(_ a:Int,_ b:Int) -> Int {
+        return a + b
+    }
+    
+    //函数类型作为参数
+    func printMathResult(_ matchFunc: (Int,Int) -> Int , _ a:Int,_ b:Int) {
+        print("result:\(matchFunc(a,b))")
+    }
+    
+    //函数作为返回类型
+    //返回大于1
+    func stepForward(_ input: Int) -> Int {
+        return input + 1
+    }
+    //返回小于1
+    func stepBackward(_ input: Int) -> Int {
+        return input - 1
+    }
+    
+    //返回值类型是函数
+    func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+        return backward ? stepBackward : stepForward
+    }
+    
+    //嵌套函数
+    func chooseFunction(backward: Bool) -> (Int) -> Int {
+        
+        func stepForward(input: Int) -> Int {
+            return input + 1
+        }
+        func stepBackward(input: Int) -> Int {
+            return input - 1
+        }
+        
+        return backward ? stepBackward:stepForward
+        
     }
     
     

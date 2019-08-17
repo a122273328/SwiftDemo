@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/aliyun/aliyun-specs'
+
+platform :ios, '9.0'
+
+target 'UUFeirenSwift' do
+  pod 'Alamofire'
+    
+end

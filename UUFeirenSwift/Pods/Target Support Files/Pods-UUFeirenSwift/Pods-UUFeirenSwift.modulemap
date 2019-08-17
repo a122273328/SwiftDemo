@@ -1,0 +1,6 @@
+module Pods_UUFeirenSwift {
+  umbrella header "Pods-UUFeirenSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
