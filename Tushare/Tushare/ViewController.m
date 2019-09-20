@@ -8,9 +8,11 @@
 
 #import "ViewController.h"
 #import "HttpHelper.h"
+#import "API_Header.h"
 @interface ViewController ()
 
 @end
+
 
 @implementation ViewController
 
@@ -20,23 +22,14 @@
 }
 - (IBAction)testAction:(id)sender {
     
-    NSDictionary *dic = @{
-                          @"api_name":@"stock_basic",
-                          @"token":@"06e6dd821cff4defe472330ca8c08e7e46c88aac2cb94b35b0e1f3d9",
-                          @"params":@{@"is_hs":@"S",@"list_status":@"L",@"exchange":@"SZSE"},
-                          @"fields":@""
-                          };
-    
-    [[HttpHelper sharedManager] POST:@"http://api.tushare.pro" parameters:dic success:^(NSURLSessionDataTask * task, id respond) {
+    NSDictionary *parameters = @{@"is_hs":@"S",@"list_status":@"L",@"exchange":@"SZSE"};
+    [[HttpHelper sharedManager] TusharePOST:stock_basic parameters:parameters completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
         
-        NSLog(@"%@",respond);
+        NSLog(@"response:%@",response);
+        NSLog(@"responseObject:%@",responseObject);
+        NSLog(@"error:%@",error);
         
-    } failure:^(NSURLSessionDataTask * task, NSError * error) {
-        NSLog(@"%@",error);
     }];
-    
-    
-    [[HttpHelper sharedManager] test];
 }
 
 

@@ -57,6 +57,7 @@
 		29AD914823352D4E00B5DE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29AD91552335329900B5DE8D /* HttpHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
 		29AD91562335329900B5DE8D /* HttpHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
+		29AD91582335439400B5DE8D /* API_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API_Header.h; sourceTree = "<group>"; };
 		311E0CE7CA02768EBD8CEF8C /* Pods-TushareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TushareTests.debug.xcconfig"; path = "Target Support Files/Pods-TushareTests/Pods-TushareTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65A1820BDB0BF2D8DF914249 /* Pods-TushareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TushareUITests.debug.xcconfig"; path = "Target Support Files/Pods-TushareUITests/Pods-TushareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67DA7B53BC4AD568E702666C /* Pods-Tushare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tushare.release.xcconfig"; path = "Target Support Files/Pods-Tushare/Pods-Tushare.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 			children = (
 				29AD91552335329900B5DE8D /* HttpHelper.h */,
 				29AD91562335329900B5DE8D /* HttpHelper.m */,
+				29AD91582335439400B5DE8D /* API_Header.h */,
 			);
 			path = Lib;
 			sourceTree = "<group>";

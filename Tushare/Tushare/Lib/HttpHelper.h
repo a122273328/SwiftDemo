@@ -14,11 +14,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedManager;
 
-- (NSURLSessionDataTask *)POST:(NSString *)URLString
-                    parameters:(id)parameters
-                       success:(void (^)(NSURLSessionDataTask * _Nonnull, id _Nullable))success
-                       failure:(void (^)(NSURLSessionDataTask * _Nullable, NSError * _Nonnull))failure;
-- (void)test;
+
+/**
+ tushare数据请求专用接口
+
+ @param api_name 请求接口
+ @param parameters 参数
+ @param block 回调
+ */
+- (void)TusharePOST:(NSString *)api_name
+         parameters:(id)parameters
+  completionHandler:(void (^)(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error))block;
+
+//- (NSURLSessionDataTask *)POST:(NSString *)URLString
+//                    parameters:(id)parameters
+//                       success:(void (^)(NSURLSessionDataTask * _Nonnull, id _Nullable))success
+//                       failure:(void (^)(NSURLSessionDataTask * _Nullable, NSError * _Nonnull))failure;
+//- (void)test;
+//
+
 
 @end
 
