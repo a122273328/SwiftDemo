@@ -15,8 +15,15 @@ class UUCurrentPageViewController: UUBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         let http = HTTPTool()
         print(http)
+        
+        HTTPTool.postRequest(url: "", params:["":""], success: { (response) in
+            
+        }) { (error) in
+            
+        }
         //初始化约束
         self.configConstraint()
     }

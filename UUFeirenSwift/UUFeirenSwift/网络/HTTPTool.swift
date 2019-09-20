@@ -33,12 +33,12 @@ class HTTPTool: NSObject {
     
     override init() {
         print("请求开始")
-        Alamofire.request("https://httpbin.org/get", method: .get, parameters: ["foo":"bar"], encoding: URLEncoding.default, headers: ["token":"1"]).responseJSON { (response) in
+        Alamofire.request("https://httpbin.org/get", method: .get, parameters: ["api_name":"stock_basic","token":"","params":"","fields":""], encoding: URLEncoding.default, headers: ["token":"1"]).responseJSON { (response) in
             print("请求试试：\(response)")
         }
         
         
-        Alamofire.request("https://httpbin.org/post", method: .post, parameters: ["foo":"bar"], encoding: URLEncoding.default, headers: ["token":"2"]).responseJSON { (response) in
+        Alamofire.request("http://api.tushare.pro", method: .post, parameters: ["foo":"bar"], encoding: URLEncoding.default, headers: ["token":"2"]).responseJSON { (response) in
             print("post请求试试：\(response)")
         }
     }
@@ -46,7 +46,7 @@ class HTTPTool: NSObject {
     static func postRequest(url:String,params:[String:Any]?,
                             success:@escaping ReqRsponseSuccess,
                             error:@escaping ReqResponseFail){
-        
+        print("静态方法")
     }
 
 }
