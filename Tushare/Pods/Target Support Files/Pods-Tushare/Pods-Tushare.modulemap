@@ -1,0 +1,6 @@
+module Pods_Tushare {
+  umbrella header "Pods-Tushare-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WZHBaseNavigationViewController.h"
+#import "WZHHomeViewController.h"
 @interface AppDelegate ()
+
 
 @end
 
@@ -16,8 +18,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self setConfigHomeWindow];
+    
     return YES;
+}
+
+
+/**
+ 设置窗口
+ */
+- (void)setConfigHomeWindow{
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    WZHHomeViewController *home = [[WZHHomeViewController alloc] initWithNibName:@"WZHHomeViewController" bundle:nil];
+    
+    WZHBaseNavigationViewController *nav = [[WZHBaseNavigationViewController alloc] initWithRootViewController:home];
+    
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
+    
 }
 
 
