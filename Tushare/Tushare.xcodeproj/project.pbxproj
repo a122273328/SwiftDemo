@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A63F0C23362EF6002035D4 /* WZHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F0B23362EF6002035D4 /* WZHBaseViewController.m */; };
+		29A63F11233630EF002035D4 /* WZHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F0F233630EF002035D4 /* WZHHomeViewController.m */; };
+		29A63F12233630EF002035D4 /* WZHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A63F10233630EF002035D4 /* WZHHomeViewController.xib */; };
+		29A63F152336312A002035D4 /* WZHBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F142336312A002035D4 /* WZHBaseNavigationViewController.m */; };
+		29A63F1A23363416002035D4 /* WZHStockListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F1823363416002035D4 /* WZHStockListViewController.m */; };
+		29A63F1B23363416002035D4 /* WZHStockListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A63F1923363416002035D4 /* WZHStockListViewController.xib */; };
+		29A63F1E233638AC002035D4 /* StockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F1D233638AC002035D4 /* StockModel.m */; };
+		29A63F2323365615002035D4 /* WZHStockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F2123365615002035D4 /* WZHStockTableViewCell.m */; };
+		29A63F2423365615002035D4 /* WZHStockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A63F2223365615002035D4 /* WZHStockTableViewCell.xib */; };
+		29A63F2923366A11002035D4 /* WZHMoneyFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A63F2723366A11002035D4 /* WZHMoneyFlowViewController.m */; };
+		29A63F2A23366A11002035D4 /* WZHMoneyFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A63F2823366A11002035D4 /* WZHMoneyFlowViewController.xib */; };
 		29AD912423352D4C00B5DE8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AD912323352D4C00B5DE8D /* AppDelegate.m */; };
-		29AD912723352D4C00B5DE8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AD912623352D4C00B5DE8D /* ViewController.m */; };
-		29AD912A23352D4C00B5DE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AD912823352D4C00B5DE8D /* Main.storyboard */; };
 		29AD912C23352D4E00B5DE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AD912B23352D4E00B5DE8D /* Assets.xcassets */; };
 		29AD912F23352D4E00B5DE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AD912D23352D4E00B5DE8D /* LaunchScreen.storyboard */; };
 		29AD913223352D4E00B5DE8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AD913123352D4E00B5DE8D /* main.m */; };
@@ -39,12 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29A63F0A23362EF6002035D4 /* WZHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHBaseViewController.h; sourceTree = "<group>"; };
+		29A63F0B23362EF6002035D4 /* WZHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHBaseViewController.m; sourceTree = "<group>"; };
+		29A63F0E233630EF002035D4 /* WZHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHHomeViewController.h; sourceTree = "<group>"; };
+		29A63F0F233630EF002035D4 /* WZHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHHomeViewController.m; sourceTree = "<group>"; };
+		29A63F10233630EF002035D4 /* WZHHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZHHomeViewController.xib; sourceTree = "<group>"; };
+		29A63F132336312A002035D4 /* WZHBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHBaseNavigationViewController.h; sourceTree = "<group>"; };
+		29A63F142336312A002035D4 /* WZHBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHBaseNavigationViewController.m; sourceTree = "<group>"; };
+		29A63F1723363416002035D4 /* WZHStockListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHStockListViewController.h; sourceTree = "<group>"; };
+		29A63F1823363416002035D4 /* WZHStockListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHStockListViewController.m; sourceTree = "<group>"; };
+		29A63F1923363416002035D4 /* WZHStockListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZHStockListViewController.xib; sourceTree = "<group>"; };
+		29A63F1C233638AC002035D4 /* StockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockModel.h; sourceTree = "<group>"; };
+		29A63F1D233638AC002035D4 /* StockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockModel.m; sourceTree = "<group>"; };
+		29A63F2023365615002035D4 /* WZHStockTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHStockTableViewCell.h; sourceTree = "<group>"; };
+		29A63F2123365615002035D4 /* WZHStockTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHStockTableViewCell.m; sourceTree = "<group>"; };
+		29A63F2223365615002035D4 /* WZHStockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZHStockTableViewCell.xib; sourceTree = "<group>"; };
+		29A63F2623366A11002035D4 /* WZHMoneyFlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHMoneyFlowViewController.h; sourceTree = "<group>"; };
+		29A63F2723366A11002035D4 /* WZHMoneyFlowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHMoneyFlowViewController.m; sourceTree = "<group>"; };
+		29A63F2823366A11002035D4 /* WZHMoneyFlowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZHMoneyFlowViewController.xib; sourceTree = "<group>"; };
 		29AD911F23352D4C00B5DE8D /* Tushare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tushare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AD912223352D4C00B5DE8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29AD912323352D4C00B5DE8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29AD912523352D4C00B5DE8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29AD912623352D4C00B5DE8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		29AD912923352D4C00B5DE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29AD912B23352D4E00B5DE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29AD912E23352D4E00B5DE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29AD913023352D4E00B5DE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +121,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A63F0723362998002035D4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				29A63F0A23362EF6002035D4 /* WZHBaseViewController.h */,
+				29A63F0B23362EF6002035D4 /* WZHBaseViewController.m */,
+				29A63F132336312A002035D4 /* WZHBaseNavigationViewController.h */,
+				29A63F142336312A002035D4 /* WZHBaseNavigationViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		29A63F08233629BC002035D4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				29AD91552335329900B5DE8D /* HttpHelper.h */,
+				29AD91562335329900B5DE8D /* HttpHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		29A63F0923362A1B002035D4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				29AD91582335439400B5DE8D /* API_Header.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		29A63F0D233630A8002035D4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				29A63F0E233630EF002035D4 /* WZHHomeViewController.h */,
+				29A63F0F233630EF002035D4 /* WZHHomeViewController.m */,
+				29A63F10233630EF002035D4 /* WZHHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		29A63F16233633C8002035D4 /* StockList */ = {
+			isa = PBXGroup;
+			children = (
+				29A63F1723363416002035D4 /* WZHStockListViewController.h */,
+				29A63F1823363416002035D4 /* WZHStockListViewController.m */,
+				29A63F1923363416002035D4 /* WZHStockListViewController.xib */,
+				29A63F1C233638AC002035D4 /* StockModel.h */,
+				29A63F1D233638AC002035D4 /* StockModel.m */,
+				29A63F1F233655E6002035D4 /* View */,
+			);
+			path = StockList;
+			sourceTree = "<group>";
+		};
+		29A63F1F233655E6002035D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29A63F2023365615002035D4 /* WZHStockTableViewCell.h */,
+				29A63F2123365615002035D4 /* WZHStockTableViewCell.m */,
+				29A63F2223365615002035D4 /* WZHStockTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29A63F25233669C0002035D4 /* MoneyFlow */ = {
+			isa = PBXGroup;
+			children = (
+				29A63F2623366A11002035D4 /* WZHMoneyFlowViewController.h */,
+				29A63F2723366A11002035D4 /* WZHMoneyFlowViewController.m */,
+				29A63F2823366A11002035D4 /* WZHMoneyFlowViewController.xib */,
+			);
+			path = MoneyFlow;
+			sourceTree = "<group>";
+		};
 		29AD911623352D4C00B5DE8D = {
 			isa = PBXGroup;
 			children = (
@@ -122,12 +217,15 @@
 		29AD912123352D4C00B5DE8D /* Tushare */ = {
 			isa = PBXGroup;
 			children = (
-				29AD91542335325600B5DE8D /* Lib */,
 				29AD912223352D4C00B5DE8D /* AppDelegate.h */,
 				29AD912323352D4C00B5DE8D /* AppDelegate.m */,
-				29AD912523352D4C00B5DE8D /* ViewController.h */,
-				29AD912623352D4C00B5DE8D /* ViewController.m */,
-				29AD912823352D4C00B5DE8D /* Main.storyboard */,
+				29A63F0D233630A8002035D4 /* Home */,
+				29A63F16233633C8002035D4 /* StockList */,
+				29A63F25233669C0002035D4 /* MoneyFlow */,
+				29A63F0923362A1B002035D4 /* Header */,
+				29A63F08233629BC002035D4 /* Helper */,
+				29A63F0723362998002035D4 /* Base */,
+				29AD91542335325600B5DE8D /* Lib */,
 				29AD912B23352D4E00B5DE8D /* Assets.xcassets */,
 				29AD912D23352D4E00B5DE8D /* LaunchScreen.storyboard */,
 				29AD913023352D4E00B5DE8D /* Info.plist */,
@@ -157,9 +255,6 @@
 		29AD91542335325600B5DE8D /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				29AD91552335329900B5DE8D /* HttpHelper.h */,
-				29AD91562335329900B5DE8D /* HttpHelper.m */,
-				29AD91582335439400B5DE8D /* API_Header.h */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -295,7 +390,10 @@
 			files = (
 				29AD912F23352D4E00B5DE8D /* LaunchScreen.storyboard in Resources */,
 				29AD912C23352D4E00B5DE8D /* Assets.xcassets in Resources */,
-				29AD912A23352D4C00B5DE8D /* Main.storyboard in Resources */,
+				29A63F2423365615002035D4 /* WZHStockTableViewCell.xib in Resources */,
+				29A63F2A23366A11002035D4 /* WZHMoneyFlowViewController.xib in Resources */,
+				29A63F12233630EF002035D4 /* WZHHomeViewController.xib in Resources */,
+				29A63F1B23363416002035D4 /* WZHStockListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,10 +487,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29AD912723352D4C00B5DE8D /* ViewController.m in Sources */,
+				29A63F0C23362EF6002035D4 /* WZHBaseViewController.m in Sources */,
+				29A63F2323365615002035D4 /* WZHStockTableViewCell.m in Sources */,
+				29A63F152336312A002035D4 /* WZHBaseNavigationViewController.m in Sources */,
+				29A63F1A23363416002035D4 /* WZHStockListViewController.m in Sources */,
 				29AD913223352D4E00B5DE8D /* main.m in Sources */,
+				29A63F1E233638AC002035D4 /* StockModel.m in Sources */,
 				29AD912423352D4C00B5DE8D /* AppDelegate.m in Sources */,
 				29AD91572335329900B5DE8D /* HttpHelper.m in Sources */,
+				29A63F11233630EF002035D4 /* WZHHomeViewController.m in Sources */,
+				29A63F2923366A11002035D4 /* WZHMoneyFlowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +532,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29AD912823352D4C00B5DE8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29AD912923352D4C00B5DE8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29AD912D23352D4E00B5DE8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

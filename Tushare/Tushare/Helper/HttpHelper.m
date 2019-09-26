@@ -48,7 +48,7 @@
                              @"fields":@""
                              };
     
-    NSLog(@"发送请求url=%@,params=%@",ServerHTTPHost,params);
+    DLog(@"发送请求url=%@,params=%@",ServerHTTPHost,params);
     
     NSMutableURLRequest *request = [[AFJSONRequestSerializer serializer] requestWithMethod:@"POST" URLString:ServerHTTPHost parameters:params error:nil];
     request.timeoutInterval = 10.f;
